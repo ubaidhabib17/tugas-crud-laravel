@@ -23,9 +23,8 @@ class jawabanController extends Controller
         $jawaban = jawabanModel::save($data);
         // dd($item);
         if($jawaban){
-            return view ('jawaban/index');
-        }else{
-            return view ('jawaban/form');
+            return
+            redirect('/jawaban');
         }
 }
 }

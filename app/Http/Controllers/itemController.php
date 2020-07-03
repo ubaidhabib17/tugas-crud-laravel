@@ -23,11 +23,8 @@ class itemController extends Controller
         $items = itemModel::save($data);
         // dd($item);
         if($items){
-            return view ('item/index');
-        }else{
-            return view ('item/form');
+            return
+            redirect('/items');
         }
-
     }
-
 }

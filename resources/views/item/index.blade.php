@@ -7,8 +7,8 @@
         <th>No</th>
         <th>Name</th>
         <th>Description</th>
-        <th>Stock</th>
         <th>Price</th>
+        <th>Stock</th>
       </tr>
     </thead>
     <tbody>
@@ -17,8 +17,8 @@
         <td>{{ $key + 1 }}</td>
         <td>{{ $item->name }}</td>
         <td>{{ $item->description }}</td>
-        <td>{{ $item->stock }}</td>
         <td>{{ $item->price }}</td>
+        <td>{{ $item->stock }}</td>
       </tr>
       @endforeach
     </tbody>

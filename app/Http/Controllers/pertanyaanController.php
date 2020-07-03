@@ -23,9 +23,8 @@ class pertanyaanController extends Controller
         $pertanyaan = pertanyaanModel::save($data);
         // dd($item);
         if($pertanyaan){
-            return view ('pertanyaan/index');
-        }else{
-            return view ('pertanyaan/form');
+            return
+            redirect('/pertanyaan');
         }
 
     }

@@ -17,7 +17,7 @@
             <input type="number" class="form-control" id="stock" placeholder="Enter Stock" name="stock">
         </div>
         <div class="form-group">
-            <label for="description">Price</label>
+            <label for="price">Price</label>
             <input type="number" class="form-control" id="price" placeholder="Enter Price" name="price">
         </div>
 
